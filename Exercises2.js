@@ -13,7 +13,7 @@ function naikAngkot(arrPenumpang) {
     var result = []
     for(var i = 0; i < arrPenumpang.length; i++){
         var obj = {}
-        obj.arrPenumpang  = arrPenumpang[i][0],
+        obj.penumpang  = arrPenumpang[i][0],
         obj.naikDari = arrPenumpang[i][1],
         obj.tujuan = arrPenumpang[i][2],
         obj.bayar 
